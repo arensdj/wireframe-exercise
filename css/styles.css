@@ -1,0 +1,111 @@
+/*  Global
+------------------------------------ */
+body {
+  /* clear: both; */
+  margin-right: 10px;
+  padding-right: 10px;
+}
+header nav {
+  height: 90px;
+  padding-top: 20px;
+  margin-right: 300px;
+  margin-bottom: 5px;
+  background-color: #444;
+  /* border: 2px solid pink; */
+}
+.top-image {
+  margin-top: 25px;
+}
+nav, .top-image {
+  padding-top: 50px;
+  padding-left: 50px;
+  /* border: 2px solid orange; */
+}
+nav ul {
+  display: inline-block;
+  vertical-align: top;
+  /* border: 2px solid pink; */
+  margin-top: -10px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  line-height: 70px;
+  padding-right: 60px;
+  padding-top: 1px;
+}
+h2 {
+  font-weight: bold;
+  display: inline-block; 
+}
+main {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+main ul {
+  /*  display: inline-block;  */
+  padding-left: 0px;
+  font-size: 0; /* This gets rid of that one pixel that's inserted and causing the images to wrap (go to the next line).*/
+}
+section {
+  float: left;
+}
+h2 {
+  font-weight: bold;
+}
+main ul li {
+  display: inline-block;
+  margin: 30px 30px 30px 0px;
+}
+main ul li:last-child {
+    margin-right: 0px;
+}
+ol {
+  list-style: decimal;
+  padding-top: 10px;
+  /* font-size: 20px; */
+}
+ul {
+  padding: 10px 40px;
+  list-style: square;
+  /* font-size: 20px; */
+}
+.column-left {
+  float: left;
+  padding-right: 20px;
+  /* margin-right: 50px; */
+  /* overflow: auto; */
+}
+.column-right {
+  margin-right: 400px;
+  /* overflow: auto; */
+  overflow: scroll;
+  height: 380px;
+}
+button {
+  padding-top: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 30px;
+  padding-bottom: 5px;
+}
+button:hover {
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+/*  Header / Footer
+------------------------------------ */
+#footer-section {
+  clear: both;
+}
+footer {
+  height: 20px;
+  width: 960px;
+  background-color: #444;
+  margin-top: 20px;
+  padding-right: 130px;
+  height: 80px;
+}
