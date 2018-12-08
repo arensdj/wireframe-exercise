@@ -5,9 +5,7 @@ body {
 }
 header {
   margin-right: 20px;
-  /* padding-right: 300px; */
-  margin-right: 350px;
-  /* border: 2px solid pink; */
+  margin-right: 315px;
   background-color: rgb(168, 162, 162);
 }
 header nav {
@@ -17,11 +15,8 @@ header nav {
   /* margin-right: 400px; */
   margin-bottom: 5px;
 }
-.top-image {
-  margin-top: 20px;
-}
 nav, .top-image {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 50px;
 }
 nav ul {
@@ -48,7 +43,7 @@ main {
 }
 main ul {
   padding-left: 0px;
-  font-size: 0; /* This gets rid of that one pixel that's inserted and causing the images to wrap (go to the next line).*/
+  font-size: 0; /* This gets rid of that one pixel that's inserted causing images to wrap */
 }
 section {
   float: left;
