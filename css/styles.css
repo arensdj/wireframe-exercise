@@ -17,19 +17,20 @@ header nav {
 }
 nav, .top-image {
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 80px;
 }
 nav ul {
   display: inline-block;
   vertical-align: top;
   margin-top: -10px;
+  padding: 10px 40px;
 }
 nav ul li {
   list-style: none;
   display: inline-block;
   color: white;
   line-height: 70px;
-  padding-right: 60px;
+  padding-right: 80px;
   padding-top: 1px;
 }
 h2 {
@@ -39,7 +40,7 @@ h2 {
 }
 main {
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 main ul {
   padding-left: 0px;
@@ -55,20 +56,12 @@ main ul li {
 main ul li:last-child {
     margin-right: 0px;
 }
-ol {
-  list-style: decimal;
-  padding-top: 10px;
-}
-ul {
-  padding: 10px 40px;
-  list-style: square;
-}
 .column-left {
   float: left;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 .column-right {
-  margin-right: 425px;
+  margin-right: 385px;
   overflow: scroll;
   height: 370px;
 }
@@ -78,6 +71,7 @@ button {
   color: white;
   text-align: center;
   height: 30px;
+  width: 180px;
   padding-bottom: 5px;
 }
 button:hover {
@@ -91,10 +85,10 @@ button:hover {
   clear: both;
 }
 footer {
-  height: 20px;
+  /* height: 20px; */
   width: 960px;
   background-color: rgb(168, 162, 162);
   margin-top: 25px;
-  padding-right: 130px;
-  height: 80px;
+  padding-right: 150px;
+  height: 130px;
 }
